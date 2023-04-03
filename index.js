@@ -9,11 +9,13 @@
             let Runtime = data[i].runtime;
             let Showtime = data[i].showtime;
             let AvailableTickets = data[i].availableTickets;
+            let Description = data[i].description;
             document.querySelector(".Movielist").innerHTML+=`
                <p>${Title}</p>
                <p>${Runtime}</p>
                <p>${Showtime}</p>
                <p>${AvailableTickets}</p>
+               <p>${Description}</p>
                <img src='${Poster}'>
                `;
           }
@@ -37,13 +39,15 @@
       const title = document.getElementById('title');
       const runtime = document.getElementById('runtime');
       const showtime = document.getElementById('showtime');
-      const availableTickets = document.getElementById('available-tickets');
+      const availableTickets = document.getElementById('availabletickets');
+      const description = document.getElementById('description');
 
       poster.src = movie.poster;
       title.innerText = movie.title;
       runtime.innerText = `Runtime: ${movie.runtime} minutes`;
       showtime.innerText = `Showtime: ${movie.showtime}`;
-      availableTickets.innerText = `Available Tickets: ${movie.capacity - movie.tickets_sold}`;
+      availableTickets.innerText = `Available Tickets: ${movie.availableTickets}`;
+      description.innerText = `Description: ${movie.description}`;
     }
 
     // Populate film list
@@ -87,10 +91,10 @@
     buyTicketButton.addEventListener('click', () => {
         
         const availableTickets = document.getElementById('available-tickets');
-        const numAvailableTickets = parseInt(availableTickets.innerText.split(':')[1]);
-      if (numAvailableTickets > 0) {
-        availableTickets.innerText = `Available Tickets: ${numAvailableTickets - 1}`;
-      } else {
-        alert('This showing is sold out.');
-      }
+      //   const numAvailableTickets = parseInt(availableTickets.innerText.split(':')[1]);
+      // if (numAvailableTickets > 0) {
+      //   availableTickets.innerText = `Available Tickets: ${numAvailableTickets - 1}`;
+      // } else {
+      //   alert('This showing is sold out.');
+      // }
     });
