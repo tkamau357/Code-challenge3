@@ -3,7 +3,7 @@
     {
       "id": "1",
       "title": "The Giant Gila Monster",
-      "runtime": "108",
+      "runtime": "108min",
       "capacity": 30,
       "showtime": "04:00PM",
       "tickets_sold": 27,
@@ -13,7 +13,7 @@
     {
       "id": "2",
       "title": "Manos: The Hands Of Fate",
-      "runtime": "118",
+      "runtime": "118min",
       "capacity": 50,
       "showtime": "06:45PM",
       "tickets_sold": 44,
@@ -23,7 +23,7 @@
     {
       "id": "3",
       "title": "Time Chasers",
-      "runtime": "93",
+      "runtime": "93min",
       "capacity": 50,
       "showtime": "09:30PM",
       "tickets_sold": 31,
@@ -33,7 +33,7 @@
     {
       "id": "4",
       "title": "The Touch Of Satan",
-      "runtime": "101",
+      "runtime": "101min",
       "capacity": 40,
       "showtime": "09:00PM",
       "tickets_sold": 31,
@@ -43,7 +43,7 @@
     {
       "id": "5",
       "title": "Santa Claus Conquers The Martians",
-      "runtime": "96",
+      "runtime": "96min",
       "capacity": 50,
       "showtime": "03:30PM",
       "tickets_sold": 45,
@@ -53,7 +53,7 @@
     {
       "id": "6",
       "title": "Track Of The Moon Beast",
-      "runtime": "112",
+      "runtime": "112min",
       "capacity": 30,
       "showtime": "10:30PM",
       "tickets_sold": 16,
@@ -63,7 +63,7 @@
     {
       "id": "7",
       "title": "The Skydivers",
-      "runtime": "94",
+      "runtime": "94min",
       "capacity": 30,
       "showtime": "07:30PM",
       "tickets_sold": 22,
@@ -73,7 +73,7 @@
     {
       "id": "8",
       "title": "The Killer Shrews",
-      "runtime": "115",
+      "runtime": "115min",
       "capacity": 40,
       "showtime": "08:30PM",
       "tickets_sold": 32,
@@ -83,7 +83,7 @@
     {
       "id": "9",
       "title": "Project Moon Base",
-      "runtime": "99",
+      "runtime": "99min",
       "capacity": 40,
       "showtime": "07:30PM",
       "tickets_sold": 22,
@@ -93,7 +93,7 @@
     {
       "id": "10",
       "title": "The Giant Spider Invasion",
-      "runtime": "122",
+      "runtime": "122min",
       "capacity": 50,
       "showtime": "10:00PM",
       "tickets_sold": 44,
@@ -103,7 +103,7 @@
     {
       "id": "11",
       "title": "Catalina Caper",
-      "runtime": "104",
+      "runtime": "104min",
       "capacity": 30,
       "showtime": "06:00PM",
       "tickets_sold": 12,
@@ -113,7 +113,7 @@
     {
       "id": "12",
       "title": "Secret Agent Super Dragon",
-      "runtime": "104",
+      "runtime": "104min",
       "capacity": 30,
       "showtime": "07:00PM",
       "tickets_sold": 20,
@@ -124,7 +124,7 @@
     {
       "id": "13",
       "title": "Wild Rebels",
-      "runtime": "100",
+      "runtime": "100min",
       "capacity": 40,
       "showtime": "09:00PM",
       "tickets_sold": 31,
@@ -134,7 +134,7 @@
     {
       "id": "14",
       "title": "Danger: Diabolik",
-      "runtime": "111",
+      "runtime": "111min",
       "capacity": 50,
       "showtime": "08:00PM",
       "tickets_sold": 40,
@@ -144,7 +144,7 @@
     {
       "id": "15",
       "title": "Village Of The Giants",
-      "runtime": "98",
+      "runtime": "98min",
       "capacity": 50,
       "showtime": "04:45PM",
       "tickets_sold": 33,

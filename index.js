@@ -54,7 +54,7 @@
             headers: {
                "Content-Type": "application/json"
             },
-             body: JSON.stringify(index),
+             body: JSON.stringify(),
         })
         .then (response => response.json())
         .then (data => console.log(data))
@@ -85,8 +85,9 @@
     // Handle ticket purchase
     const buyTicketButton = document.getElementById('buy-ticket');
     buyTicketButton.addEventListener('click', () => {
-      const availableTickets = document.getElementById('available-tickets');
-      const numAvailableTickets = parseInt(availableTickets.innerText.split(':')[1]);
+        
+        const availableTickets = document.getElementById('available-tickets');
+        const numAvailableTickets = parseInt(availableTickets.innerText.split(':')[1]);
       if (numAvailableTickets > 0) {
         availableTickets.innerText = `Available Tickets: ${numAvailableTickets - 1}`;
       } else {
